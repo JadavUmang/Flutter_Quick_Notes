@@ -1,5 +1,7 @@
 # Flutter and Dart Notes
 
+![Visitor Count](https://visitor-badge.glitch.me/badge?page_id=jadavUmang.Flutter_Quick_Notes)
+
 ---
 
 ## Flutter
