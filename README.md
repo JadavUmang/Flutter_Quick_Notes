@@ -1,5 +1,4 @@
 # Flutter and Dart Notes
-![Visitor Count](https://api.countapi.xyz/hit/jadavUmang.Flutter_Quick_Notes/visits?style=flat-square)
 
 ---
 
