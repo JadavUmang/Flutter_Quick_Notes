@@ -257,3 +257,63 @@ Function in Dart :-
 
 	Ex :-
 		child: Image.asset('assets/images/vvp logo.png'),
+
+# Columns & Rows
+	One of the most common layout patterns is to arrange widgets vertically or horizontaly.
+	You can use a row widget to arrange widgets horizontaly, and column widget to arrange widget verticaly.
+
+![[Pasted image 20250302184729.png]]
+
+
+![[Pasted image 20250302184907.png]]
+
+
+	The Children[] is used to differ column or row like array.
+	Ex :-
+		body: Column(   // Row
+			Children:[    //<TEXT> for only single type of text array
+				Text('A'),
+				Text('B'),
+				Text('C'),
+				Text('D'),
+				Text('E'),
+			]
+		)
+
+### InkWell widget :-
+	
+	InkWell is the material widget in flutter.
+	It depends on the touch action as performed by the user.
+	InkWell will respond when user click/tap on it.
+	There are so many gestures like double-click,long press, tap down, etc.
+	We need to bind(Wrap) the widget with child attribute and onTap attribute.
+
+	Ex :-
+		child:InkWell(  
+		    onTap: (){  
+		        print('fLUTTER IMAGE CLICKED...');  
+		     },  
+		  child:  Image.asset('assets/images/vvp logo.png'),  
+	)
+
+### SCROLLVIEW AND ITS TYPES :-
+	
+	used when we have more content then our screen size
+	
+	Ex :-
+		child: SingleChildScrollView(   //scrollDirection : Axis.horizontal, for horizontal scrollview
+			.
+			.
+			.
+		)
+
+### LISTVIEW AND ITS COMPONENTS :-
+	
+	Listview in flutter is a widget used to display items in a linear manner.
+	For example , listview is used in apps like zomato & swiggy to display a list of restorents.
+	Since it is a scrollable widget we can display multiple items on the same screen.
+	If scroll direction is verticle the children will be arrenged one after another from top to buttom.
+	When scroll direction is Horizontal the children will be arrenged one after another from left to right.
+	 
+	
+	
